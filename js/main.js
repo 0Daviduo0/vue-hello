@@ -8,3 +8,10 @@ createApp ({
     }
 }).mount('#title');
 
+createApp ({
+    data() {
+        return {
+            imgSource: 'img/Rick.img'
+        }
+    }
+}).mount('#image');
