@@ -3,15 +3,8 @@ const { createApp } = Vue;
 createApp ({
     data() {
         return {
-            title: 'Titolone'
+            title: 'Hello Vue!',
+            imageSrc : 'img/Rick.png'
         }
     }
 }).mount('#title');
-
-createApp ({
-    data() {
-        return {
-            imgSource: 'img/Rick.img'
-        }
-    }
-}).mount('#image');
